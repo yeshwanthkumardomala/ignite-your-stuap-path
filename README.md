@@ -1,26 +1,33 @@
-# Welcome to your Lovable project
 
-## Project info
+# Stuap - Student Academic and Career Platform
 
-**URL**: https://lovable.dev/projects/c113c796-6f5f-4a31-9e44-46cefc13cf86
+## Project Description
 
-## How can I edit this code?
+Stuap is an educational platform designed to bridge the gap between academic learning and practical career skills for Indian students. The platform offers personalized learning paths, mentorship opportunities, hands-on projects, and a supportive community to help students discover their potential and prepare for future success.
 
-There are several ways of editing your application.
+## Key Features
 
-**Use Lovable**
+- **Personalized Learning Paths**: Tailored courses based on academic interests and career goals
+- **Mentorship Program**: Connect with industry experts and academic mentors
+- **Real-World Projects**: Gain practical experience through industry-relevant projects
+- **Interactive Workshops & Events**: Participate in hands-on skill-building sessions
+- **Career Discovery Tools**: Explore various career paths that match your skills and interests
+- **Community Support**: Join a network of peers and professionals for guidance and collaboration
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c113c796-6f5f-4a31-9e44-46cefc13cf86) and start prompting.
+## Technical Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is built with:
+- **Vite**: For fast development and building
+- **TypeScript**: For type-safe code
+- **React**: For building the user interface
+- **shadcn-ui**: For beautiful, accessible UI components
+- **Tailwind CSS**: For responsive, utility-first styling
+- **React Router**: For navigation between pages
+- **Tanstack Query**: For data fetching and state management
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+To run this project locally:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
@@ -36,38 +43,37 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/        # Reusable UI components
+├── pages/             # Main application pages
+├── hooks/             # Custom React hooks
+├── lib/               # Utility functions and constants
+└── main.tsx           # Application entry point
+```
 
-**Use GitHub Codespaces**
+## Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The project can be easily deployed using Lovable's built-in publishing feature:
+1. Open your project in Lovable
+2. Click the "Publish" button in the top-right corner
+3. Follow the deployment instructions
 
-## What technologies are used for this project?
+## Custom Domain Setup
 
-This project is built with:
+To connect your own domain to this project:
+1. Navigate to Project > Settings > Domains in Lovable
+2. Click "Connect Domain"
+3. Follow the domain configuration instructions
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+For more details, see [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
 
-## How can I deploy this project?
+## Project URL
 
-Simply open [Lovable](https://lovable.dev/projects/c113c796-6f5f-4a31-9e44-46cefc13cf86) and click on Share -> Publish.
+**URL**: https://lovable.dev/projects/c113c796-6f5f-4a31-9e44-46cefc13cf86
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is [MIT licensed](LICENSE).
