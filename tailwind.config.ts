@@ -68,6 +68,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			fontFamily: {
+				sans: ['Poppins', 'sans-serif'],
+				heading: ['Montserrat', 'sans-serif'],
+			},
 			backgroundColor: {
 				'soft-white': '#F9FAFB'
 			},
